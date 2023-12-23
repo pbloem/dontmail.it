@@ -1,7 +1,6 @@
 html {
-	background: #141E30;  /* fallback for old browsers */
-	background: linear-gradient(to bottom, #141E30, #243B55 35%, #243B5533); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+	background: #FFB6B633;  /* fallback for old browsers */
+    background: linear-gradient(to bottom, #f0c0b5, #FDEBE8 8%, #FFB6B633);}
 
 body {
 	position: relative;
@@ -40,7 +39,7 @@ h1 {
 	
 	padding: 1.4545em 60px 1.4545em;
 	margin: 0;
-	background: #141E30;
+    background: #84372F;
 }
 
 
@@ -65,17 +64,20 @@ h2::before, h2::after {
 	content: "🔒";
 	
 	position: absolute;
-	width: 1.4em;
-	height: 0.8em;
+	width: 1.8em;
+	height: 1.2em;
 		
-	font-size: 1.4em;
+	font-size: 1.0em;
 	line-height: 1.0em;
 	text-indent: 0.15em;
 	color: #ccc;
 	
 	border: solid 1px #ccc;
-	border-radius: 0.4em;
+	border-radius: 0.7em;
 	background: white;
+
+	padding: 0.2em 0 0 0.4em;
+	filter: saturate(6) contrast(1.5);
 }
 
 h2::before {	
@@ -180,8 +182,8 @@ a.action-link {
 	margin-right: -1em;
 	padding: 1.2em 1em 0.8em;
 	
-	background: #30465e;
-	
+    background: #305e33;
+
 	text-decoration: none;
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: bold;

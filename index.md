@@ -24,15 +24,19 @@ With kind regards,
 The OCP Web Team
 </pre></div>
 
-Maybe it's not a payment link, but some other sensitive operation. The key here is that you are emailing your user a link to a website that is not hosted by you.  
+Maybe it's not a payment link, but some other sensitive operation. Most likely the link is replaced by a friendly and colorful button.
+
+The key here is that **you are emailing your user a link to a website that is not hosted by you**. And you're asking them to do something serious and sensitive on that website.  
 
 Your user is trying to tell you that this is a _very_ serious security problem, and you should fix it.
 
 ## What's the problem?
 
-The main problem is with identity. There are many scammers and phishers out there, and your user needs to be sure that this request came from _you_, and not from somebody trying to take their money. 
+The main problem is with _identity_: to be safe on the internet, *people need to know who they're talking to*.
 
-**Email does not establish identity.** Anybody can send an email that looks like it comes from your company. This is very easy. It does not require any hacking skills. This is why emails, while convenient should never be trusted fully.
+There are many scammers and phishers out there, and when your user gets a request to pay, they need to be sure the request came from _you_, and not from somebody trying to take their money. 
+
+**Email does not establish identity.** Anybody can send an email that looks like it comes from your company. This is very easy. It does not require any hacking skills or in-depth knowledge. This is why emails, while convenient should never be trusted fully.
 
 Luckily there _is_ a system on the internet that can securely, and reliably establish your identity: **websites**. With websites, we have the `https` protocol. This is very carefully designed to make sure that nobody can pretend to be you. So long as users see your domain name in the URL they are visiting and there is an icon of a padlock, 🔒, in the browser bar, they know they're seeing information that came from you, and not from somebody trying to steal their money.
 
@@ -116,6 +120,8 @@ If the URL is under the host name of the company you will be paying, then things
 
 If the link goes to a third party, some company that you don't know, then we have a problem. The company is asking you to pay without every giving you the opportunity to check who you're actually talking to. **Don't use the email link to pay**.
 
+When in doubt, don't make an online payment unless at some point, you can check who is providing the payment details. The only way to do that is to go to their website, with their URL, and to check for the padlock icon. Once you've done that, any information you see comes from the company you're paying, and you can trust that any links they give you are safe, even if they then redirect to another website.   
+
 ## People tell me never to click any links in emails, period. How is this different?
 
 Clicking a link in an email you don't understand is indeed very unsafe. The reason for this is that when a security bug crops up in a browser, scammers will try to send people to specially crafted sites that exploit the bug.
@@ -130,9 +136,17 @@ The difference in what we're talking about on this website, is that it's not the
 
 ## What else can I do to protect myself against sites like this?
 
+If there are alternative companies you can do business with, consider switching. A security problem like this is often a symptom of a _mindset_. They company either can't or won't take your security seriously. There may well be many other problems nehind the scenes that you aren't privy to.
+
+If you can't switch, or it's not worth the bother, make sure never to pay without at some point checking who is sending you the payment details. Maybe the payment email was legitimate the last time, but this kind of business practice makes the company, and its users, a prime target for scammers. Maybe next time, the email won't come from the company, and yet it will look exactly the same.
+
+Just treat the email as a payment reminder, but don't click the link. Go to their website, log in, and fin the payment link there.
+
+If the company doesn't offer this option, that is, if the only way you can pay is through the payment link they emailed you, then you should very seriously consider whether that's the sort of company you trust with your money.
+
 <h2 id="send-email">Send an email to an offending website</h2>
 
-If you notice that somebody has sent you your password back, you can send them the following
+If you notice that somebody has sent a third-part payment link, you can send them the following
  email. <span class="no-js">Just replace the values in square brackets.</span>
 
 <div class="email-form"></div>
@@ -142,7 +156,7 @@ If you notice that somebody has sent you your password back, you can send them t
 to: [their-address]
 </pre>
 <pre class="subject">
-subject: Your website ([website]) stores my password in cleartext
+subject: You sent me a third-party payment link over email
 </pre>
 <pre class="body">
 body: Dear Sir or Madam,
@@ -151,9 +165,7 @@ I am a user of your website ([website]). I recently noticed that you sent me a p
 
 This is a serious security problem, and one that should be fixed quickly 
 
-You can read why on the following (non-profit) website:
-
-https://dontmail.it
+If you want more information, you can read why on the website dontmail.it.
 
 I hope you will read this information carefully and take steps to fix the problems with your website. If you can't, please ensure that someone who can is made aware of the problem.
 
