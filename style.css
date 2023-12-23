@@ -62,7 +62,7 @@ h2 {
 }
 
 h2::before, h2::after {
-	content: "•••";
+	content: "🔒";
 	
 	position: absolute;
 	width: 1.4em;
