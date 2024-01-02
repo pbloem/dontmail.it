@@ -4,7 +4,7 @@
     <script data-goatcounter="https://cleartxt.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
-    <title>No more clear text passwords.</title>
+    <title>No more third-party payment links over email.</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,13 +18,26 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="/form.js"></script>
 	
-	<link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
 
+        <style>
+           text { filter: saturate(3) contrast(1.5) }
+        </style>
+
+        <text y=%22.9em%22 font-size=%2290%22 filter=%22url(%23sat)%22>🔒</text>
+
+    </svg>">
   </head>
   <body>
   {{ content }}
   
-  <footer><ul><li>Hosted on <a href="https://pages.github.com/">GitHub Pages</a>. </li><li> Created by <a href="http://peterbloem.nl">Peter Bloem</a> (<a class="mastodon" href="https://sigmoid.social/@pbloem">mastodon</a>). </li><li> Questions or suggestions? <a href="https://github.com/pbloem/dontmail.it/issues">Open a ticket</a>.</li></footer>
+  <footer>
+    <ul>
+      <li>Hosted on <a href="https://pages.github.com/">GitHub Pages</a> </li>
+      <li> By <a href="http://peterbloem.nl">Peter Bloem</a> (<a class="mastodon" href="https://sigmoid.social/@pbloem">mastodon</a>) </li>
+      <li> Questions, suggestions? <a href="https://github.com/pbloem/dontmail.it/issues">Open a ticket</a></li>
+      <li> See also <a href="https://cleartxt.info">cleartxt.info</a></li>
+  </footer>
 
   </body>
 </html>
