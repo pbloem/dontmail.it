@@ -110,14 +110,23 @@ p {
 }
 
 aside {
-	padding-left: 2em;
+    margin-left: 6em;
+    margin-right: 60px;
 	font-style: italic;
 }
 
+aside p {
+    padding: 0;
+}
+
 blockquote {
-	padding: 0 0 0 2em;
-	margin: 0;
+	margin-left: 6em;
+	margin-right: 60px;
 	font-family: Georgia, serif;
+}
+
+blockquote p {
+    padding: 0;
 }
 
 ul, ol {
@@ -375,3 +384,6 @@ footer ul li + li::before {
   	text-align: center;
 }
 
+img.full {
+    width: 100%;
+}
