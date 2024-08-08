@@ -168,7 +168,7 @@ This is what we mean when we say that websites can establish _identity_. If you 
 
 For every company that you do business with, you should know its domain name. If you don't, just search their name in a search engine to get to their website, and see what the domain name is.
 
-## What else can I do to protect myself against comapnies that do this?
+## What else can I do to protect myself against companies that do this?
 
 If there are other companies you can do business with, consider switching. A security problem like this is often a symptom of a _mindset_. The company either cannot or will not take your security seriously. There may well be many other problems behind the scenes that you can't see.
 
