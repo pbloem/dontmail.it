@@ -121,7 +121,7 @@ If you can't help but break this rule, then the link should go to a website host
 
 If you think the email might be a scam, or you didn't expect to be asked for any payment, then **don't click any links**. Go to the website of the company who supposedly sent you the email, log in, and see if it says anything about expected payments there.
 
-If you expect to get a payment request, and you think the email is probably legitimate, you can see where the link sends you. Often you can do this without actually clicking it: if you hover over the link, most email clients will show the you URL.
+If you expect to get a payment request, and you think the email is probably legitimate, you can see where the link sends you. Often you can do this without actually clicking it: if you hover over the link, most email clients will show you the URL.
 
 If the URL is under the host name of the company you will be paying, then things are fine. Not great, ideally companies shouldn't put links in emails at all, but let's say this is probably a reasonable tradeoff between usability and security.
 
